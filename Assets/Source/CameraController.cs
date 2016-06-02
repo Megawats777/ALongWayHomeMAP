@@ -5,9 +5,11 @@ public class CameraController : MonoBehaviour
 {
     /*--Properties of the class--*/
 
+    // The camera movement speed
     [SerializeField]
     protected float cameraMovementSpeed = 10.0f;
 
+    // The speed increase on the camera in sprint mode
     [SerializeField]
     protected float cameraSpeedIncreaseAmount = 20.0f;
 

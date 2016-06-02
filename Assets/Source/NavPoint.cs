@@ -10,12 +10,12 @@ public class NavPoint : MonoBehaviour
     [SerializeField]
     private string locationName;
 
-    // Reference to the text of the Nav point
-    [SerializeField]
-    private Text locationText;
+    // The description for this location
+    public string locationDescription;
 
-    // Is the point selected?
-    private bool isPointSelected = false;
+    // Reference to the text of the Nav point
+    [HideInInspector]
+    public Text locationText;
 
     // Reference to the HUDController
     private HUDController hudController;
@@ -42,22 +42,29 @@ public class NavPoint : MonoBehaviour
     // When this nav point is clicked
     private void OnMouseDown()
     {
-        print("Nav Point Selected");
-
-        isPointSelected = true;
+        // If a nav point is not currently selected then select this nav point
+        if (hudController.isNavPointSelected == false)
+        {
+            print("Nav Point Selected");
+            hudController.isNavPointSelected = true;
+            hudController.showDescription(gameObject);
+        }
     }
 
     // When the nav point is hovered show the location text
     private void OnMouseEnter()
     {
-        locationText.gameObject.SetActive(true);
+        // If no nav point is currently selected then show the name of this area
+        if (hudController.isNavPointSelected == false)
+        {
+            locationText.gameObject.SetActive(true);
+        }
     }
 
     // When the mouse stops hovering the nav point
     private void OnMouseExit()
     {
-        // If the point is not selected then hide the location text
-        if (isPointSelected == false)
+        if (hudController.isNavPointSelected == false)
         {
             locationText.gameObject.SetActive(false);
         }

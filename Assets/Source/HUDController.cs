@@ -9,11 +9,27 @@ public class HUDController : MonoBehaviour
     [SerializeField]
     private Button closeDescriptionButton;
 
+    [SerializeField]
+    private Image descriptionPanel;
 
-	// Use this for initialization
-	void Start ()
+    [SerializeField]
+    private Text descriptionText;
+
+    /*--Properties of the class--*/
+
+    // Is a nav point selected
+    [HideInInspector]
+    public bool isNavPointSelected = false;
+
+    // The selected nav point
+    //[HideInInspector]
+    public NavPoint selectedNavPoint;
+
+    // Use this for initialization
+    void Start ()
     {
-	
+        // Hide the close description button
+        closeDescriptionButton.gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -23,13 +39,18 @@ public class HUDController : MonoBehaviour
 	}
 
     // Show the description
-    public void showDescription()
+    public void showDescription(GameObject navPointObject)
     {
-        // Get the description from the nav point
+        isNavPointSelected = true;
 
+        // Get the nav point object
+        selectedNavPoint = navPointObject.GetComponent<NavPoint>();
+        
         // Set the content of the description panel
+        descriptionText.text = selectedNavPoint.locationDescription;
 
         // Show the description panel
+
 
         // Show the close description panel
         closeDescriptionButton.gameObject.SetActive(true);
@@ -38,13 +59,21 @@ public class HUDController : MonoBehaviour
     // Hide the description
     public void hideDescription()
     {
+        isNavPointSelected = false;
+
+        // Hide the selected nav point location text
+        selectedNavPoint.locationText.gameObject.SetActive(false);
+
+        // Remove the nav point reference
+        selectedNavPoint = null;
+
         // Hide the description Panel
 
 
         // Hide the close description button
         closeDescriptionButton.gameObject.SetActive(false);
     }
-
+    
     // Exit the App
     public void exitApp()
     {
