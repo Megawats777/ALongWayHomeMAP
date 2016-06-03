@@ -35,9 +35,11 @@ public class HUDController : MonoBehaviour
     private float panelPositionLerpValue = 0.0f;
 
     // The starting Y position for the description panel
+    [SerializeField]
     private float panelStartYPosition;
 
     // The starting X position for the description panel
+    [SerializeField]
     private float panelStartXPosition;
 
     // The ending X position for the description panel
@@ -45,6 +47,7 @@ public class HUDController : MonoBehaviour
     private float panelEndXPosition;
 
     // The new X position for the description panel
+    [SerializeField]
     private float panelNewXPosition;
 
     // Panel animation rate
@@ -61,10 +64,10 @@ public class HUDController : MonoBehaviour
         closeDescriptionButton.gameObject.SetActive(false);
 
         // Set the start X position for the description panel
-        panelStartXPosition = descriptionPanel.transform.position.x;
+        panelStartXPosition = descriptionPanel.gameObject.transform.position.x;
 
         // Set the start Y position for the description panel
-        panelStartYPosition = descriptionPanel.transform.position.y;
+        panelStartYPosition = descriptionPanel.gameObject.transform.position.y;
 
         // Set the content of the description text and location title to null
         locationTitle.text = null;
@@ -100,7 +103,7 @@ public class HUDController : MonoBehaviour
         panelNewXPosition = Mathf.Lerp(panelStartXPosition, panelEndXPosition, panelPositionLerpValue);
 
         // Set the new X position of the descriptionPanel
-        descriptionPanel.transform.position = new Vector3(panelNewXPosition, panelStartYPosition, 0.0f);
+        descriptionPanel.gameObject.transform.position = new Vector3(panelNewXPosition, panelStartYPosition, 0.0f);
     }
 
     // Show the description

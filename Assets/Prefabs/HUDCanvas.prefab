@@ -486,7 +486,10 @@ MonoBehaviour:
   isNavPointSelected: 0
   selectedNavPoint: {fileID: 0}
   panelPositionLerpValue: 0
-  panelEndXPosition: 820
+  panelStartYPosition: 0
+  panelStartXPosition: 0
+  panelEndXPosition: 880
+  panelNewXPosition: 0
   panelAnimationRate: 250
   isPanelClosing: 1
 --- !u!114 &11439484
@@ -1005,10 +1008,10 @@ RectTransform:
   - {fileID: 22499664}
   m_Father: {fileID: 22408132}
   m_RootOrder: 3
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 20}
-  m_SizeDelta: {x: 497, y: 319}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 249, y: -303}
+  m_SizeDelta: {x: 498, y: 319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22435238
 RectTransform:
