@@ -64,6 +64,9 @@ public class HUDController : MonoBehaviour
         // Hide the selected nav point location text
         selectedNavPoint.locationText.gameObject.SetActive(false);
 
+        // Clear the current description text content
+        descriptionText.text = null;
+
         // Remove the nav point reference
         selectedNavPoint = null;
 
