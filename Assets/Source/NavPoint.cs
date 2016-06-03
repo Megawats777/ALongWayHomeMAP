@@ -7,8 +7,7 @@ public class NavPoint : MonoBehaviour
     /*--Properties of the class--*/
 
     // The location of the nav point
-    [SerializeField]
-    private string locationName;
+    public string locationName;
 
     // The description for this location
     public string locationDescription;
