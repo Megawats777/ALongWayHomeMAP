@@ -30,6 +30,10 @@ public class HUDController : MonoBehaviour
 
     /*--Description Panel Animation Properties--*/
 
+    // The description panel nav point
+    [SerializeField]
+    private GameObject descriptionPanelNavPoint;
+
     // The Description panel position lerp value
     [SerializeField, Range(0.0f, 1.0f)]
     private float panelPositionLerpValue = 0.0f;
@@ -51,7 +55,7 @@ public class HUDController : MonoBehaviour
     private float panelNewXPosition;
 
     // Panel animation rate
-    [SerializeField, Range(0.0f, 250)]
+    [SerializeField, Range(0.0f, 1000.0f)]
     private float panelAnimationRate = 1.0f;
 
     // Is the description panel opening
@@ -68,6 +72,10 @@ public class HUDController : MonoBehaviour
 
         // Set the start Y position for the description panel
         panelStartYPosition = descriptionPanel.gameObject.transform.position.y;
+
+        // Set the end X position for the description panel
+        panelEndXPosition = descriptionPanelNavPoint.transform.position.x;
+        descriptionPanelNavPoint.SetActive(false);
 
         // Set the content of the description text and location title to null
         locationTitle.text = null;

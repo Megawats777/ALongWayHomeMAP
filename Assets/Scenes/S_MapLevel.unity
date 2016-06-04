@@ -85,6 +85,10 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &635833479 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 163428, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+  m_PrefabInternal: {fileID: 680879038}
 --- !u!1001 &680879038
 Prefab:
   m_ObjectHideFlags: 0
@@ -165,6 +169,10 @@ Prefab:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22475276, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22475276, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
@@ -172,29 +180,49 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 0.7082153
       objectReference: {fileID: 0}
+    - target: {fileID: 22424046, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424046, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -337
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435636, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: descriptionPanelNavPoint
+      value: 
+      objectReference: {fileID: 635833479}
+    - target: {fileID: 11435636, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: panelAnimationRate
+      value: 488
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412258, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412258, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22452124, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_AnchoredPosition.y
       value: 51.5
       objectReference: {fileID: 0}
-    - target: {fileID: 22452124, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+    - target: {fileID: 22424046, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 353
+      value: 387
       objectReference: {fileID: 0}
-    - target: {fileID: 22475276, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
+    - target: {fileID: 22425766, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -337
       objectReference: {fileID: 0}
-    - target: {fileID: 11435636, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
-      propertyPath: panelEndXPosition
-      value: 930
+    - target: {fileID: 22425766, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 387
       objectReference: {fileID: 0}
-    - target: {fileID: 11495440, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
-      propertyPath: m_Elasticity
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 22452124, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -11
+    - target: {fileID: 22401696, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 155
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
