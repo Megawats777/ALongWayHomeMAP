@@ -155,7 +155,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: Hello World
+      value: 'Once our training was finished we were sent off to various rebel camps
+        and settlements. Most of our attacks were mostly just us storming to the settlement
+        destroying anything we see causing as much chaos as possible. Until we forced
+        the rebels to surrender or retreat. Between each attack we were given several
+        substances that kept us eagerly looking forward to the next encounter. We
+        were essentially treated like attack dogs that destroyed anything that the
+        master desired. If anyone of my companions falls in battle that would just
+        fuel me further as I try to avenge my comrade. What drove me further out of
+        anything is my squad they are my lifeline and without them I am NOTHING.  '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -445,7 +453,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: Hello World
+      value: "It's been 2 years since I became a soldier and joined my squad. They
+        have been the only resemblance of family I have left because of that they
+        mean everything to me. We had just returned from a raid and we saw a few foreigners
+        talking to our commanders. Soon after the commanders approached us  and simply
+        told us that we\u2019ll be going with them for a \u201Cbetter life\u201D.
+        But my life was already awesome I was being a superhero, fighting for my country.
+        Why would I turn myself over to them like they want me to leave my squad and
+        everything I have built up. So I kept resisting until they forced me onto
+        the truck that headed for Freetown. For a better life, a new beginning?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
