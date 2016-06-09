@@ -47,6 +47,7 @@ GameObject:
   - 136: {fileID: 13698970}
   - 23: {fileID: 2337848}
   - 114: {fileID: 11487786}
+  - 95: {fileID: 9566276}
   m_Layer: 0
   m_Name: NavPoint
   m_TagString: Untagged
@@ -100,6 +101,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165712}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &9566276
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165712}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d07938d8223dc954ab4137fa069b7edb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11433738
 MonoBehaviour:
   m_ObjectHideFlags: 1
