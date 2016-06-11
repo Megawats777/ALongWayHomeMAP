@@ -16,6 +16,14 @@ public class NavPoint : MonoBehaviour
     [HideInInspector]
     public Text locationText;
 
+    // Reference to the NavPoint mesh
+    [SerializeField]
+    private GameObject navPointMesh;
+
+    // Can the NavPointMesh rotate
+    [HideInInspector]
+    public bool canNavPointMeshRotate;
+
     // Reference to the HUDController
     private HUDController hudController;
 
@@ -35,7 +43,22 @@ public class NavPoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Rotate the NavPointMesh
+        rotateNavPointMesh();
+    }
 
+    // Rotate the NavPointMesh
+    private void rotateNavPointMesh()
+    {
+        // If the nav point mesh can rotate
+        if (canNavPointMeshRotate == true)
+        {
+            // If the nav mesh point has been set
+            if (navPointMesh)
+            {
+                navPointMesh.transform.Rotate(transform.forward * 75.0f * Time.deltaTime);
+            }
+        }
     }
 
     // When this nav point is clicked
@@ -57,6 +80,9 @@ public class NavPoint : MonoBehaviour
         if (hudController.isNavPointSelected == false)
         {
             locationText.gameObject.SetActive(true);
+
+            // Let the nav point mesh rotate
+            canNavPointMeshRotate = true;
         }
     }
 
@@ -66,6 +92,9 @@ public class NavPoint : MonoBehaviour
         if (hudController.isNavPointSelected == false)
         {
             locationText.gameObject.SetActive(false);
+
+            // Do not let the nav point mesh rotate
+            canNavPointMeshRotate = false;
         }
     }
 }

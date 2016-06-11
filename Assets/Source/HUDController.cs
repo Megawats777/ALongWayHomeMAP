@@ -140,6 +140,9 @@ public class HUDController : MonoBehaviour
     {
         isNavPointSelected = false;
 
+        // Stop the selected nav point mesh from rotating
+        selectedNavPoint.canNavPointMeshRotate = false;
+
         // Hide the selected nav point location text
         selectedNavPoint.locationText.gameObject.SetActive(false);
 
