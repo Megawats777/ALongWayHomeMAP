@@ -13,10 +13,14 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     protected float cameraSpeedIncreaseAmount = 20.0f;
 
+    // Reference to the attached rigidbody component
+    private Rigidbody cameraRigidBody;
+
 	// Use this for initialization
 	protected void Start ()
     {
-	
+        // Get the camera rigidbody component
+        cameraRigidBody = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -26,7 +30,7 @@ public class CameraController : MonoBehaviour
         cameraMovementControl();
 
         // Increase the camera movement speed
-        increaseCameraSpeed();
+        //increaseCameraSpeed();
     }
 
     // Control the camera movement
@@ -85,6 +89,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    /*
     // Increase the camera movement speed
     private void increaseCameraSpeed()
     {
@@ -101,4 +106,5 @@ public class CameraController : MonoBehaviour
         }
 
     }
+    */
 }
