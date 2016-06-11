@@ -17,6 +17,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &109772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 410236}
+  - 33: {fileID: 3339438}
+  - 23: {fileID: 2388964}
+  m_Layer: 0
+  m_Name: NavPointMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &119816
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,9 +60,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 434562}
-  - 33: {fileID: 3384942}
   - 136: {fileID: 13698970}
-  - 23: {fileID: 2337848}
   - 114: {fileID: 11487786}
   - 95: {fileID: 9566276}
   m_Layer: 0
@@ -55,6 +70,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &410236
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109772}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: -4.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 434562}
+  m_RootOrder: 1
 --- !u!4 &434562
 Transform:
   m_ObjectHideFlags: 1
@@ -62,30 +89,31 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.21, y: 3.54, z: 6.12}
+  m_LocalPosition: {x: 15.9, y: 7.9, z: 5.7}
   m_LocalScale: {x: 1.2563169, y: 1.2563164, z: 1.2563164}
   m_Children:
   - {fileID: 22400194}
+  - {fileID: 410236}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &2337848
+--- !u!23 &2388964
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 165712}
+  m_GameObject: {fileID: 109772}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: a9618b8e323f0f349829843bc72a5ed8, type: 2}
+  - {fileID: 2100000, guid: c4e388394e6d67a4eaec231bbdd35e4d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_MinimumChartSize: 4
@@ -94,13 +122,13 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &3384942
+--- !u!33 &3339438
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 165712}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_GameObject: {fileID: 109772}
+  m_Mesh: {fileID: 4300000, guid: 5ba33ab6ed4b3fc47ae30529524a725b, type: 3}
 --- !u!95 &9566276
 Animator:
   serializedVersion: 3
@@ -199,8 +227,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849d058324213f54995ffa7ef7213fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  locationName: This is a place
-  locationDescription: 
+  locationName: A New Beginning?
+  locationDescription: "It's been 2 years since I became a soldier and joined my squad.
+    They have been the only resemblance of family I have left because of that they
+    mean everything to me. We had just returned from a raid and we saw a few foreigners
+    talking to our commanders. Soon after the commanders approached us  and simply
+    told us that we\u2019ll be going with them for a \u201Cbetter life\u201D. But
+    my life was already awesome I was being a superhero, fighting for my country.
+    Why would I turn myself over to them like they want me to leave my squad and everything
+    I have built up. So I kept resisting until they forced me onto the truck that
+    headed for Freetown. For a better life, a new beginning?"
   locationText: {fileID: 11433738}
 --- !u!136 &13698970
 CapsuleCollider:
@@ -211,8 +247,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.92582726
-  m_Height: 2.855362
+  m_Radius: 4.3829265
+  m_Height: 11.133109
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &22211468
@@ -255,7 +291,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.55}
+  m_AnchoredPosition: {x: 0, y: 2.11}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22426000
