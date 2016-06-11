@@ -151,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: The Raids
+      value: 'The Raids '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
@@ -163,8 +163,12 @@ Prefab:
         were essentially treated like attack dogs that destroyed anything that the
         master desired. If anyone of my companions falls in battle that would just
         fuel me further as I try to avenge my comrade. What drove me further out of
-        anything is my squad they are my lifeline and without them I am NOTHING.  '
+        anything is my squad they are my lifeline and without them I am NOTHING.   '
       objectReference: {fileID: 0}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a2276db0e3f9f84abb84d561b912c03, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
   m_IsPrefabParent: 0
@@ -250,6 +254,10 @@ Prefab:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: locationName
+      value: The Beginning
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
       value: "It was January 1993 and I was only 12 years old. It\u2019s been years
         since I have seen my family and that saddens me because without them I wouldn\u2019t
@@ -258,11 +266,47 @@ Prefab:
         the time gave me a good feeling about what the war was all about. There rumblings
         that the war was starting to move near to my village Mogbwembo because of
         that my friends and I embarked on a journey to Mattru Jong. A journey that
-        would change us forever"
+        would change us forever.                             "
       objectReference: {fileID: 0}
-    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
-      propertyPath: locationName
-      value: The Beginning
+    - target: {fileID: 3339438, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 3827130e00450ef428d4bac6ea195133, type: 3}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b6c9872d2b042e6438a9c78284c65127, type: 2}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.2593079
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.2593074
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.2593079
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.43659198
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.55622625
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.55622613
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.4365918
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -387,7 +431,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: Becoming a Soldier
+      value: 'Becoming a soldier '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
@@ -401,6 +445,10 @@ Prefab:
         us war movies to make us feel that every fight we got in was like playing
         a sport. To make us feel that war is this dangerous but exciting GAME.    "
       objectReference: {fileID: 0}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a2276db0e3f9f84abb84d561b912c03, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
   m_IsPrefabParent: 0
@@ -441,7 +489,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 165712, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_Name
@@ -449,20 +497,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: A New Beginning?
+      value: 'The life I was meant to live '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: "It's been 2 years since I became a soldier and joined my squad. They
-        have been the only resemblance of family I have left because of that they
-        mean everything to me. We had just returned from a raid and we saw a few foreigners
-        talking to our commanders. Soon after the commanders approached us  and simply
-        told us that we\u2019ll be going with them for a \u201Cbetter life\u201D.
-        But my life was already awesome I was being a superhero, fighting for my country.
-        Why would I turn myself over to them like they want me to leave my squad and
-        everything I have built up. So I kept resisting until they forced me onto
-        the truck that headed for Freetown. For a better life, a new beginning?"
+      value: "Now this is when my life changed\u2026.again. At first I kept resisting
+        all sorts of help as I felt that they were trying to use me. But as time went
+        on I felt that my life was changing in a positive way. I felt that I was living
+        the life I was meant to live. Like I was going to school, playing soccer,
+        and eating ice cream with my friends. I was living without restraint or conflict,
+        you know a peaceful life. On top of that after all these years I finally got
+        to see my Uncle again. Would I trade this life for being a soldier again?
+        Not a chance I think I\u2019m fine living the life I was meant to live. "
       objectReference: {fileID: 0}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a2276db0e3f9f84abb84d561b912c03, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
   m_IsPrefabParent: 0
@@ -511,7 +562,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: Captured
+      value: 'Captured '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
@@ -524,7 +575,47 @@ Prefab:
         my heart pounding as villagers that were considered \u201Cunfit for battle\u201D
         were executed. I wish I could just run away or use my cassette tape to distract
         them but that would just make things worse. My life would never be the same
-        again."
+        again. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339438, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 3827130e00450ef428d4bac6ea195133, type: 3}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b6c9872d2b042e6438a9c78284c65127, type: 2}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.43659198
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.55622625
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.55622613
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.4365918
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.2593079
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.2593074
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.2593079
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -670,19 +761,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22452124, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -40.063
+      value: 0.00048828125
       objectReference: {fileID: 0}
     - target: {fileID: 22452124, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 396.13
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 22499664, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 22499664, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 316
+      value: 354
       objectReference: {fileID: 0}
     - target: {fileID: 11456632, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_FontData.m_FontSize
@@ -698,7 +789,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22401696, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 170
+      value: 185
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425766, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -327
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425766, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 249
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424046, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -327.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425766, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 428
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424046, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 427.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49a7250738139e440a16d743a93bd8e6, type: 2}
@@ -787,7 +898,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 64.3
+      value: 72.03
       objectReference: {fileID: 0}
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.y
@@ -822,10 +933,6 @@ Prefab:
       value: NavPoint (7)
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
-      propertyPath: locationName
-      value: 'What is this thing called snow? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
       value: 'The group that was taking care of us called UNICEF wanted to take us
         to New York to see the United Nations. When I arrived at New York I was amazed
@@ -838,6 +945,50 @@ Prefab:
         and I felt pretty good in the end thinking I spoke to the entire world. That
         was our trip to New York it was full of speaking, walking, and this thing
         called snow.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: locationName
+      value: 'What is this thing called snow? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339438, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.39717603
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.39717612
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.39717612
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.82000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.9300004
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.42416212
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.5824477
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.56576234
+      objectReference: {fileID: 0}
+    - target: {fileID: 410236, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.40094173
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -912,7 +1063,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 83.5
+      value: 96.2
       objectReference: {fileID: 0}
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.y
@@ -962,6 +1113,10 @@ Prefab:
         us but the journey as a whole. While you may think you may be at the end just
         remember you\u2019re just getting started. "
       objectReference: {fileID: 0}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a2276db0e3f9f84abb84d561b912c03, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
   m_IsPrefabParent: 0
@@ -1002,7 +1157,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 420788, guid: eb062c88290f18b47af1a57e651ac51a, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 157004, guid: eb062c88290f18b47af1a57e651ac51a, type: 2}
       propertyPath: m_Name
@@ -1061,6 +1216,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb07a042d838ad840a05f2d80651931c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2058562576
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 72.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 743b28fff6a0c2244829f21c5da83c97, type: 2}
+    - target: {fileID: 2300000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27b3432a966722d46a872b5e4f753cbd, type: 2}
+    - target: {fileID: 2300000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62a84af237ba89045aedb9e4f73dc0f0, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a38ef46f777f32543866c1c7bbf99596, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &2066311757
 Prefab:
   m_ObjectHideFlags: 0
@@ -1070,7 +1279,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 46.6
+      value: 44.85
       objectReference: {fileID: 0}
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1098,12 +1307,32 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 434562, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 165712, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: m_Name
       value: NavPoint (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: locationName
+      value: 'A New Beginning? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: locationDescription
+      value: "It's been 2 years since I became a soldier and joined my squad. They
+        have been the only resemblance of family I have left because of that they
+        mean everything to me. We had just returned from a raid and we saw a few foreigners
+        talking to our commanders. Soon after the commanders approached us  and simply
+        told us that we\u2019ll be going with them for a \u201Cbetter life\u201D.
+        But my life was already awesome I was being a superhero, fighting for my country.
+        Why would I turn myself over to them like they want me to leave my squad and
+        everything I have built up. So I kept resisting until they forced me onto
+        the truck that headed for Freetown. For a better life, a new beginning? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388964, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a2276db0e3f9f84abb84d561b912c03, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
   m_IsPrefabParent: 0
