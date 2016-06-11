@@ -823,11 +823,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: New York
+      value: 'What is this thing called snow? '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: Hello World
+      value: 'The group that was taking care of us called UNICEF wanted to take us
+        to New York to see the United Nations. When I arrived at New York I was amazed
+        by the monstrous size of the buildings and the size of the crowds. While I
+        was walking I noticed that these white things are falling and when I asked
+        what this was I was told it was this thing called snow. Anyways we went to
+        the conferences where myself and many other kids like me spoke about what
+        we did in Sierra Leone. When it was my turn to speak I could feel my hands
+        shaking as I never spoke to a large crowd before. Anyways I got through it
+        and I felt pretty good in the end thinking I spoke to the entire world. That
+        was our trip to New York it was full of speaking, walking, and this thing
+        called snow.  '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -938,11 +948,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: Freetown Part 2
+      value: 'The End '
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: Hello World
+      value: "When we came back from New York we saw explosions and heard gunfire
+        from Freetown. When we came closer to the city we saw banks and schools being
+        blown up. People were running and screaming just so they can just survive
+        the chaos. After the attack we were able to return to our daily lives but
+        just as I thought things were becoming normal another curveball hit\u2026.my
+        Uncle died. Our only resemblance of family is now gone from all of us. To
+        those reading these entries remember it's not just one action that defines
+        us but the journey as a whole. While you may think you may be at the end just
+        remember you\u2019re just getting started. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
@@ -1088,11 +1106,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationName
-      value: Freetown Part 1
+      value: The life I was meant to live
       objectReference: {fileID: 0}
     - target: {fileID: 11487786, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
       propertyPath: locationDescription
-      value: Hello World
+      value: "Now this is when my life changed\u2026.again. At first I kept resisting
+        all sorts of help as I felt that they were trying to use me. But as time went
+        on I felt that my life was changing in a positive way. I felt that I was living
+        the life I was meant to live. Like I was going to school, playing soccer,
+        and eating ice cream with my friends. I was living without restraint or conflict,
+        you know a peaceful life. On top of that after all these years I finally got
+        to see my Uncle again. Would I trade this life for being a soldier again?
+        Not a chance I think I\u2019m fine living the life I was meant to live. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0c6833a6777b1a448e92de21402eb42, type: 2}
